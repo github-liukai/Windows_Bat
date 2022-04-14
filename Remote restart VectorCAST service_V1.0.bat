@@ -12,7 +12,7 @@ set /p char=
 
 if "%char%"=="Y" (
 echo.
-net use \\win-server\ipc$ "Password123" /user:"Camel"
+net use \\win-server\ipc$ "Password123" /user:"CXXX"
 
 SC \\win-server  stop "VectorCAST License Service"
 
